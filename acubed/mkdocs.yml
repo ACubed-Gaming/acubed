@@ -1,0 +1,52 @@
+site_name: acubed
+repo_url: https://github.com/ACubed-Gaming/acubed
+site_url: https://ACubed-Gaming.github.io/acubed
+site_description: A standardized system to measure player skill and quantify stepfile difficulty in community-based vertical scroll rhythm games.
+site_author: Wilson Cheung
+edit_uri: edit/main/docs/
+repo_name: ACubed-Gaming/acubed
+copyright: Maintained by <a href="https://ACubed-Gaming.com">ACubed-Gaming</a>.
+
+nav:
+  - Home: index.md
+  - Modules: modules.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [acubed]
+theme:
+  name: material
+  feature:
+    tabs: true
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ACubed-Gaming/acubed
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/acubed
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
