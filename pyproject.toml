@@ -1,7 +1,7 @@
 [project]
 name = "acubed"
 version = "0.0.1"
-description = "A standardized system to measure player skill and quantify stepfile difficulty in community-based vertical scroll rhythm games."
+description = "A time series extrinsic regression model built to objectively measure stepfile difficulty in community-based vertical scroll rhythm games."
 authors = [{ name = "Wilson Cheung", email = "contact.acubed@gmail.com" }]
 readme = "README.md"
 keywords = ['python']

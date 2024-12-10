@@ -1,7 +1,7 @@
 site_name: acubed
 repo_url: https://github.com/ACubed-Gaming/acubed
 site_url: https://ACubed-Gaming.github.io/acubed
-site_description: A standardized system to measure player skill and quantify stepfile difficulty in community-based vertical scroll rhythm games.
+site_description: A time series extrinsic regression model built to objectively measure stepfile difficulty in community-based vertical scroll rhythm games.
 site_author: Wilson Cheung
 edit_uri: edit/main/docs/
 repo_name: ACubed-Gaming/acubed

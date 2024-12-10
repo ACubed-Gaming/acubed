@@ -5,4 +5,4 @@
 [![Commit activity](https://img.shields.io/github/commit-activity/m/ACubed-Gaming/acubed)](https://img.shields.io/github/commit-activity/m/ACubed-Gaming/acubed)
 [![License](https://img.shields.io/github/license/ACubed-Gaming/acubed)](https://img.shields.io/github/license/ACubed-Gaming/acubed)
 
-A standardized system to measure player skill and quantify stepfile difficulty in community-based vertical scroll rhythm games.
+A time series extrinsic regression model built to objectively measure stepfile difficulty in community-based vertical scroll rhythm games.
